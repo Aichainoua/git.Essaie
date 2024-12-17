@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  .h1 {
+    color: #002855;
+    margin-top: 20px;
+    text-align: center;
+}
+  
+  .section {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+
+  }
+
+
+
+  .conteneur {
+    background-color: #ffffff60;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .conteneur h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .conteneur p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .icon{
+    height: 50px;
+    width: 50px;
+    background-color: #002855;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .fa-check {
+
+    color: #fff; 
+
+
+  }
